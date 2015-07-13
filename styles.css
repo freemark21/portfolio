@@ -1,3 +1,26 @@
+body {
+	background-color: #59889A;
+}
+
+ul  {
+	list-style-type: none;
+}
+
+#skills {
+	background-color: #BFBFBF;
+	border-radius: 6px;
+	padding: 15px;
+}
+
+#skills li {
+	font-size: 20px;
+}
+
+#portfolio {
+	background-color: #EEEEEE;
+	padding: 15px;
+}
+
 i {
 	padding-right: 15px;
 }
