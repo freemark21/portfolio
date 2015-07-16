@@ -1,15 +1,27 @@
 body {
-	background-color: #59889A;
+	background-color: #FFFFFF;
+    color: #FFFFFF;
+    position: relative;
+    padding-top: 80px;
+}
+
+#nav {
+    border-radius: 0;   
 }
 
 ul  {
 	list-style-type: none;
 }
 
+#jumbotron{
+    background-color: #304A4C;
+    border-radius: 0;
+}
+
 #skills {
-	background-color: #BFBFBF;
-	border-radius: 6px;
+	background-color: #7E534F;
 	padding: 15px;
+    margin-bottom: 30px;
 }
 
 #skills li {
@@ -17,10 +29,23 @@ ul  {
 }
 
 #portfolio {
-	background-color: #EEEEEE;
+	background-color: #7E6E4F;
 	padding: 15px;
+    margin-bottom: 30px;
+}
+
+#education {
+    margin-bottom: 30px;
+    background-color: #304A4C;
+}
+
+h2 {
+    font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 i {
 	padding-right: 15px;
+    color: #FFFFFF;
 }
