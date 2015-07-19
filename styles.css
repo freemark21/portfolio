@@ -5,8 +5,26 @@ body {
     padding-top: 80px;
 }
 
+#jumbotron, #skills, #portfolio, #education {
+	box-shadow: 6px 6px 2px 0 #000000;
+}
+
+#traits {
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+#traits li {
+	padding-bottom: 15px;
+}
+
 #nav {
     border-radius: 0;   
+}
+
+#navbar-right {
+	padding-right: 15px;
 }
 
 ul  {
@@ -30,8 +48,12 @@ ul  {
 
 #portfolio {
 	background-color: #7E6E4F;
-	padding: 15px;
+	padding: 30px;
     margin-bottom: 30px;
+}
+
+#gallery {
+	padding-bottom: 10px;
 }
 
 #education {
