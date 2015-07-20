@@ -9,6 +9,10 @@ body {
 	box-shadow: 6px 6px 2px 0 #000000;
 }
 
+@media screen and (min-width: 0px) and (max-width: 992px) {
+	#traits { display: none; }
+}
+
 #traits {
 	font-size: 25px;
 	font-weight: bold;
@@ -52,8 +56,12 @@ ul  {
     margin-bottom: 30px;
 }
 
-#gallery {
+#portfolio h2 {
 	padding-bottom: 10px;
+}
+
+#gallery img {
+	padding-bottom: 15px;
 }
 
 #education {
@@ -70,4 +78,16 @@ h2 {
 i {
 	padding-right: 15px;
     color: #FFFFFF;
+}
+
+#footer {
+	background-color: #222222;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
 }
