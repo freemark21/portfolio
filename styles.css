@@ -13,6 +13,10 @@ body {
 	#traits { display: none; }
 }
 
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    #skills p { text-align: center; }
+}
+
 #traits {
 	font-size: 25px;
 	font-weight: bold;
@@ -38,41 +42,60 @@ ul  {
 #jumbotron{
     background-color: #304A4C;
     border-radius: 0;
+    margin-bottom: 80px;
 }
 
 #skills {
 	background-color: #7E534F;
 	padding: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
-#skills li {
-	font-size: 20px;
+#list {
+    font-family: "Arial Black","Arial Bold",Gadget,sans-serif; 
+    font-size: 25px;
+    margin: 10px 0 60px 0;
+    padding: 40px 0 40px 0;
+}
+
+#list p {
+    padding: 30px;
+    margin-left: 15px;
 }
 
 #portfolio {
 	background-color: #7E6E4F;
 	padding: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
-#portfolio h2 {
-	padding-bottom: 10px;
+#gallery {
+    padding: 20px 0;
+    margin: 50px 0;
 }
 
 #gallery img {
-	padding-bottom: 15px;
+	padding: 15px 0;
+    margin-bottom: 25px;
 }
 
 #education {
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     background-color: #304A4C;
+    font-size: 25px;
+}
+
+#education p {
+    font-family: Verdana,Geneva,sans-serif;
+    font-weight: bold;
+    padding: 15px 0 50px 0;
 }
 
 h2 {
     font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
     font-weight: bold;
     font-size: 50px;
+    padding: 20px 0;
 }
 
 i {
@@ -80,14 +103,9 @@ i {
     color: #FFFFFF;
 }
 
-#footer {
-	background-color: #222222;
-}
-
 #footer a {
-	text-decoration: none;
-	color: #FFFFFF;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
+    text-decoration: none;
+    font-family: "Lucida Bright",Georgia,serif;
+    font-size: 50px;
+    font-weight: bold;
 }
